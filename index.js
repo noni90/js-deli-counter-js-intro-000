@@ -13,5 +13,5 @@ line.push(name);
    else {
      return katzDeliLine.shift();
    }
-   
+
  }
