@@ -21,10 +21,11 @@ line.push(name);
    {
      return "The line is currently empty.";
    }
-       const now=[];
+     const nowinline=[];
      for(let i =0, k=line.length;i<k;i++)
      {
-       now.push(`${i+1}. ${line[i]}`);
+       nowinline.push(`${i+1}. ${line[i]}`);
+      
      }
 
     return `The line is currently:${now.join(', ')}.`;
