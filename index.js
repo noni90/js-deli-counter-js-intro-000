@@ -25,8 +25,8 @@ line.push(name);
      for(let i =0, k=line.length;i<k;i++)
      {
        nowinline.push(`${i+1}. ${line[i]}`);
-
      }
 
-    return `The line is currently:${nowinline.join(', ')}.`;
+    return `The line is currently:${nowinline.join(', ')}`;
+           
  }
