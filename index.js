@@ -23,7 +23,7 @@ return `Welcome, ${name} You are number ${line.length} in line.`;
        const now=[];
      for(let i =0, k=line.length;i<k;i++)
      {
-       now.push(`${i+1}.line[i]`);
+       now.push(`${i+1.line[i]}`);
      }
 
     return `The line is currently:${now.join(', ')}`;
