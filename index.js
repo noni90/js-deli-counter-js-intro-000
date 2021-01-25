@@ -11,7 +11,7 @@ return `Welcome, ${name} You are number ${line.length} in line.`;
    }
 
      return `Currently serving ${line.shift()}`;
-  
+
 }
 
  function currentLine(line)
