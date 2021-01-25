@@ -27,6 +27,6 @@ line.push(name);
        nowinline.push(`${i+1}. ${line[i]}`);
      }
 
-    return `The line is currently:${nowinline.join(', ')}`;
+    return `The line is currently: ${nowinline.join(', ')}`;
 
  }
