@@ -1,16 +1,7 @@
 var katzDeliLine = [];
-function takeANumber(katzDeliLine,name)
+function takeANumber(line,name)
 {
-  katzDeliLine.push(name);
-  for(let i=0;i<katzDeliLine.length;i++)
-  {
-    if (i==7)
-    {
-      return "The line is currently empty.";
-    }
-    else{
-      return `Welcome, ${katzDeliLine} You are number ${i} in line.`;
-    }
-  }
-  return katzDeliLine;
+line.push(name);
+  
+  return `Welcome, ${name} You are number ${line.length} in line.`;
 }
