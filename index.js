@@ -21,7 +21,7 @@ return `Welcome, ${name} You are number ${line.length} in line.`;
      return "The line is currently empty.";
    }
        const now=[];
-     for(let i =0;i<line.length();i++)
+     for(let i =0, k=line.length;i<k;i++)
      {
        now.push(`${i+1}.line[i]`);
      }
