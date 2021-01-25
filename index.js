@@ -9,7 +9,7 @@ function takeANumber(katzDeliLine,name)
       return "The line is currently empty.";
     }
     else{
-      return `Welcome, $name You are number $i in line.`;
+      return `Welcome, $katzDeliLine[i] You are number $i in line.`;
     }
   }
   return katzDeliLine;
