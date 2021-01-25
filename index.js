@@ -27,5 +27,5 @@ return `Welcome, ${name} You are number ${line.length} in line.`;
        now.push(`${i+1}.line[i]`);
      }
     }
-    return `The line is currently:${now}`;
+    return `The line is currently:${now.join(', ')}`;
  }
