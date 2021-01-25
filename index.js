@@ -10,5 +10,8 @@ line.push(name);
    {
      return "There is nobody waiting to be served!";
    }
-   return katzDeliLine.shift();
+   else {
+     return katzDeliLine.shift();
+   }
+   
  }
